@@ -1,4 +1,5 @@
 import './index.css';
+import TodoItem from '../TodoItem/index.js'
 
 /**
  * Responsible for managing the list of tasks and 
@@ -11,37 +12,15 @@ import './index.css';
  */
 function TodoList() {
   let tasks = [
-    {id: 1, title: "assignment 1", desc:"complete soon", dueDate:"9/30/2010 12:00:00 AM"},
-    {id: 2, title: "assignment 2", desc:"computer systems assignment", dueDate:null},
-    {id: 3, title: "assignment 3", desc:"this is a tough one", dueDate:"9/30/2010 12:00:00 AM"},
+    <TodoItem id={1} title={"assign. 1"} desc={"this is an assignment that needs to be done"} dueDate={"9/30/2010 12:00:00 AM"}></TodoItem>,
+    <TodoItem id={1} title={"assign. 2"} desc={"computer systems assignment"}></TodoItem>,
+    <TodoItem id={1} title={"assign. 3"} desc={"this is a tough one. Good luck sport"} dueDate={"9/30/2010 12:00:00 AM"}></TodoItem>
   ]
-
-  // convert tasks to html
-  const taskItems = tasks.map(task => {
-    return(
-      <li key={task.id}>
-        <div className="taskContents">
-          <div>
-            <div className="title">
-              {task.title}
-            </div>
-            <div className='desc'>
-              {task.desc}
-            </div>
-          </div>
-
-          <div className='date'>
-            {task.dueDate}
-          </div>
-        </div>
-      </li>
-    )
-  })
 
   return(
     <>
       <ul>
-        {taskItems}
+        {tasks}
       </ul>
     </> 
   )

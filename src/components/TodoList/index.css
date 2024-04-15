@@ -9,35 +9,3 @@ ul{
   padding:40px;
   list-style-type: none;
 }
-
-li{
-  background-color: rgb(204, 148, 218);
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 10px;
-  margin:10px;
-}
-
-.taskContents{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.title{
-  font-size: 18pt;
-  text-align: left;
-  color: rgb(54, 54, 54);
-}
-
-.desc{
-  text-align: left;
-  color: rgb(54, 54, 54);
-}
-
-.date{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(54, 54, 54);
-}
