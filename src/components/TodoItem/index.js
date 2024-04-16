@@ -1,20 +1,29 @@
 import './index.css';
 
-function TodoItem({id, title, desc, dueDate}) {
+/**
+ * contain the task and the buttons that operate on it
+ */
+
+function TodoItem({task, deleteTask}) {
 
   return(
-    <li key={id}>
+    <li>
       <div className="taskContents">
         <div>
           <div className="title">
-            {title}
+            {task.title}
           </div>
           <div className='desc'>
-            {desc}
+            {task.desc}
           </div>
         </div>
         <div className='date'>
-          {dueDate}
+          {task.dueDate}
+        </div>
+        <div className='deleteButtonContainer'>
+          <button className='deleteButton' onClick={() => deleteTask(task.id)}>
+            X
+          </button>
         </div>
       </div>
     </li>
