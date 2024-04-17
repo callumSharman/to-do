@@ -17,9 +17,6 @@ function TodoItem({task, deleteTask}) {
             {task.desc}
           </div>
         </div>
-        <div className='date'>
-          {task.dueDate}
-        </div>
         <div className='deleteButtonContainer'>
           <button className='deleteButton' onClick={() => deleteTask(task.id)}>
             X

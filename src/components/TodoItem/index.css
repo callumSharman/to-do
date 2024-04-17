@@ -24,13 +24,6 @@ li{
   color: rgb(54, 54, 54);
 }
 
-.date{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(54, 54, 54);
-}
-
 .deleteButtonContainer{
   display: flex;
   justify-content: center;
