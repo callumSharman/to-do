@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/callumSharman/to-do/static/css/main.4b3804be.css",
+    "main.js": "/callumSharman/to-do/static/js/main.8b4e2cce.js",
+    "static/js/453.a6f6b83d.chunk.js": "/callumSharman/to-do/static/js/453.a6f6b83d.chunk.js",
+    "index.html": "/callumSharman/to-do/index.html",
+    "main.4b3804be.css.map": "/callumSharman/to-do/static/css/main.4b3804be.css.map",
+    "main.8b4e2cce.js.map": "/callumSharman/to-do/static/js/main.8b4e2cce.js.map",
+    "453.a6f6b83d.chunk.js.map": "/callumSharman/to-do/static/js/453.a6f6b83d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b3804be.css",
+    "static/js/main.8b4e2cce.js"
+  ]
+}
