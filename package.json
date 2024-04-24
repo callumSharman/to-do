@@ -1,7 +1,7 @@
 {
   "name": "to-do",
   "version": "0.1.0",
-  "homepage": "https://github.com/callumSharman/to-do",
+  "homepage": "https://callumsharman.github.io/to-do",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
