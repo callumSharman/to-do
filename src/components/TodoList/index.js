@@ -13,23 +13,7 @@ import {useState} from 'react'
  */
 function TodoList() {
 
-  const [tasks, setTasks] = useState([
-    {
-      id:1,
-      title:"assign. 1",
-      desc:"this is an assignment that needs to be done"
-    },
-    {
-      id:2,
-      title:"assign. 2",
-      desc:"computer systems assignment",
-    },
-    {
-      id:3,
-      title:"assign. 3",
-      desc:"this is a tough one. Good luck sport"
-    }
-  ])
+  const [tasks, setTasks] = useState([])
 
   const [title, setTitle] = useState('');
   const [desc, setDesc] = useState('');
